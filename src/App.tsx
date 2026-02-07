@@ -1704,6 +1704,7 @@ const App = () => {
             onRegister={reg}
             availableClassrooms={availRooms}
             onRequestEdit={reqEdit}
+            nums={subs.length}
           />
         )}
         {page === "admin" && (
